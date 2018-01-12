@@ -1,0 +1,84 @@
+*{
+	font-family: Marlett;
+}
+body{
+	margin: 0px;
+}
+.titulo-principal{
+	background: #EEA0D0;
+	text-align: center;
+	padding: 1%;
+	color: white;
+	letter-spacing: 5px;
+	word-spacing: 8px;
+    text-shadow: 1px 1px 2px black, 0 0 25px #940F80, 0 0 5px #530C49;
+}
+.titulo-principal h2{
+	font-size: 50px;
+}
+.menu-navegacion{
+	text-align: center;
+}
+.menu-navegacion li{
+	display: inline;
+}
+.menu-navegacion a{
+    background-color: white;
+    color: black;
+    border: 4px solid #490750;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+    width: 80px;
+	height: 20px;
+	font-size: 25px;
+	margin: 50px;
+	outline: none;
+	cursor: pointer;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+
+
+}
+
+.menu-navegacion li:hover a {
+    background-color: #C30582;
+    color: white;
+}
+li[class="activo"] a{	
+	background: #9F4F86;
+	color: white;
+	text-decoration: underline;
+}
+
+.informacion-personal{
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background: #6759A1;
+	color: white;
+	padding: 1%;
+	text-align: center;
+}
+.footer li{
+	display: inline;
+	margin: 5%;
+	text-align: center;
+}
+.footer a{
+	background: #9882F4;
+	color: white;
+	text-decoration: none;
+	padding: 2%;
+	font-size: 20px;
+}
+.biografia{
+	text-align: center;
+	padding: 2%;
